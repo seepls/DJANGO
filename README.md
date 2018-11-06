@@ -6,3 +6,9 @@ scala is: scalable | concurrency | no boilerplate code
 - where as spark (only scala)
 
 java and scala both work on JVM hence can work together 
+
+-constant inspiration for scalable software design and implimentation 
+-FUNCTIONAL PROGRAMMING 
+
+
+SCALA WILL CHALLENGE YOU !! 

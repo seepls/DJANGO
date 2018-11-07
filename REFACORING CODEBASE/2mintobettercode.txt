@@ -1,0 +1,7 @@
+woody zuill and llewellyn falco
+
+1.Legacy code is source code that relates to a no-longer supported or manufactured operating system 
+or other computer technology. 
+2.codes either die or keep working.
+3. simple techniques for code excellence :
+4. leave things better than you found them 

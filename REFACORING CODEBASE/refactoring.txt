@@ -1,0 +1,3 @@
+book : refactoring : improving the design of existing code 
+1.integral to framework development 
+2. book describes when and where you should start digging in your code to improve it.

@@ -1,0 +1,21 @@
+self testing code refers to the practice of writing comphrehensive automated tests in conjunction with functional software .
+if properly done allows to invoke a single command that executes the tests .and these tests will illuminate any bugs hiding in the code 
+
+EVERY OBJECT SHOULD BE ABLE TO TEST ITSELF .
+
+YOU have a self testing code when you can run a series of automated tests against the code base and be confident that 
+if the test pass the code is free of any substantial defect .
+
+other way of thinking it is as you building the software system simultaneously build a bug detector system .
+
+ANY NON TRIVIAL CODE WITHOUT TESTS IS BROKEN.
+ 
+Self testing code is part of continous integration . as well as necessary for continous dilivery .
+
+benifit not only that you are avoiding production bugs also the confidence when u make some change .
+hence you end up being in a virtuous spiral.
+
+- TEST DRIVEN DEVELOPMENT 
+Continuous Delivery allows you to quickly deploy new versions of software into production.
+teams put in more effort in spoting bugs once in production , rapidly fixing them by deploying a new fixed version or rolling 
+back to the last best version .

@@ -69,4 +69,18 @@
     models.py
     tests.py
     views.py
+  The include() function allows referencing other URLconfs.  
   
+  path function 4 arguments : 
+  1. route 
+  2.view 
+  3.kwargs // optional 
+  4.name // optional 
+
+path() : route :: 
+contains url pattern 
+path() : view ::When Django finds a matching pattern, it calls the specified view function with an HttpRequest object as the first argument and any “captured” values from the route as keyword arguments.
+path() : kwargs::
+path(): name ::
+
+

@@ -1,0 +1,33 @@
+install Django 
+: python language behind Django 
+
+start :
+virtualenv name
+cd name
+source bin/activate
+pip install django==version
+pip freeze // confirm it !
+django-admin.py startproject start // compatibility issue between python and django versions 
+
+Django version	Python versions
+1.11	          2.7, 3.4, 3.5, 3.6, 3.7 (added in 1.11.17)
+2.0	            3.4, 3.5, 3.6, 3.7
+2.1, 2.2	      3.5, 3.6, 3.7
+
+cd start 
+ start->|_manage.py
+        |_start
+        
+ and start has it dudeeeee!!!!!!! (so excited )
+ |-> __init__.py
+ |-> settings.py
+ |-> urls.py
+ |-> wsgi.py (web server gateway interface)
+ 
+ cd ..
+ 
+ the root of the project is always where manage.py is !
+  
+  - python manage.py runserver
+  - pip install south django-registration stripe
+  

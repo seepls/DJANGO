@@ -1,0 +1,11 @@
+Rest Framework = 
+****Request object
+core functionality :
+- request.data  # Handles arbitrary data.  Works for 'POST', 'PUT' and 'PATCH' methods.
+
+*** Response object :
+takes unrendered content and uses negotiation to render correct data type 
+
+APIView works with class based views 
+
+parent.child() : creates a new structure or table 

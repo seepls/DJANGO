@@ -36,4 +36,8 @@ any action before or after calling handler methods
  .initialize_request(self, request,*args, **kwargs)
  
  
+ """ 
+ ensures that the request object that is passed to the handler method is an instance of handler method 
+"""
+ 
  

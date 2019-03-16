@@ -31,3 +31,34 @@ authentication or identification by itself is not usually sufficient to gain inf
  at the point at which you've retrieved the object.
  
  
+"""
+ 
+ """
+default permission policy set globally , using DEFAULT_PERMISSION_CLASSES
+
+"""
+ ------------------------
+ REST_FRAMEWORK = {
+  'DEFAULT_PERMISSION_CLASSES':(
+     'rest_framework.permissions.isAuthenticated',
+  )
+ }
+ 
+ ------------------------
+from rest_framework.permissions import BasePermission, IsAuthenticated, SAFE_METHODS
+from rest_framework.response import Response
+from rest_framework.views import APIView
+
+class ReadOnly(BasePermission):
+    def has_permission(self, request, view):
+        return request.method in SAFE_METHODS
+
+class ExampleView(APIView):
+    permission_classes = (IsAuthenticated|ReadOnly,)
+
+    def get(self, request, format=None):
+        content = {
+            'status': 'request was permitted'
+        }
+        return Response(content)
+     

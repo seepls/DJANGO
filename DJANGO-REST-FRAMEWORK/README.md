@@ -1,7 +1,7 @@
 #### Django-Rest Framework 
-
-relation between 
--APIView
--GenericAPIView
--Mixins
--ViewSets
+</br>
+relation between </br>
+-APIView </br>
+-GenericAPIView </br>
+-Mixins </br>
+-ViewSets </br>
